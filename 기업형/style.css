@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.after::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.wrap1 {
+  width: 100%;
+  height: 200px;
+  background: lightblue;
+}
+
+.header {
+  width: 1240px;
+  height: 200px;
+  background: lightseagreen;
+  line-height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+ul>li {
+  width: 25%;
+  float: left;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
+
+li:nth-child(1),
+li:nth-child(3) {
+  background: purple;
+}
+
+li:nth-child(2),
+li:nth-child(4) {
+  background: palevioletred;
+}
+
+.wrap2 {
+  width: 1240px;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid #000;
+  /* border-top-style: none;
+  border-bottom-style: none; */
+
+}
+
+.contents1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+}
+
+.box1>div {
+
+  width: 23.5%;
+  height: 250px;
+  background: pink;
+  text-align: center;
+  line-height: 250px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  margin-right: 2%;
+}
+
+.box1>.box1-4 {
+  margin-right: 0;
+}
+
+.contents2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.box2>div {
+  background: lightblue;
+  font-size: 25px;
+  color: #fff;
+  height: 250px;
+  width: 49%;
+  margin-right: 2%;
+  float: left;
+  text-align: center;
+  /* line-height: 250px; */
+}
+
+.box2>.box2-2 {
+  margin-right: 0;
+}
+
+.icon {
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.icon>div {
+  width: 200px;
+  height: 200px;
+  background: plum;
+  text-align: center;
+  color: #fff;
+  line-height: 200px;
+  font-size: 80px;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 5px 5px 5px darkgray;
+  margin-right: 60px
+}
+
+.icon>.icon4 {
+  margin-right: 0;
+}
+
+.pharagraph p {
+  font-size: 40px;
+  font-family: 'Sacramento',
+    cursive;
+  margin: 80px;
+}
+
+.footer {
+  background: lightgray;
+}
+
+.footer>.footer1 {
+  background: purple;
+  width: 1240px;
+  margin: 0 auto;
+  height: 150px;
+  font-size: 40px;
+  color: #fff;
+  line-height: 150px;
+  text-align: center;
+}

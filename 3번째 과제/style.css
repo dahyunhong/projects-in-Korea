@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li ol {
+    list-style: none;
+}
+
+div {
+    text-align: center;
+    color: white;
+}
+
+.after::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.boxA {
+    height: 150px;
+}
+.boxA-1 {
+    width: 40%;
+    height: 150px;
+    float: left;
+}
+.boxA-1>.box1 {
+    background-color: black;
+    height: 30%;
+}
+.boxA-1>.box2 {
+    background-color:cyan;
+    height: 70%;
+}
+.box3{
+    width:60%;
+    height:150px;
+    background-color:  gray;
+    float: left;
+}
+.boxB {
+    height: 200px;
+}
+.boxB-1 {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.box4 {
+    background-color: lightslategrey;
+    height: 40%;
+}
+.box5 {
+    background-color: gray;
+    height: 60%;
+}
+.boxB-2 {
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.box6 {
+    background-color:  coral;
+    height: 60%;
+}
+.box7 {
+    background-color: black;
+    height: 40%;
+}
+.box8 {
+background-color: yellowgreen;
+height: 40px;
+width: 100%;
+float: left;
+}
+.box9 {
+    background-color: gray;
+    height: 60px;
+    width: 100%;
+    float: left;
+    }
+.boxE {
+        height: 200px;
+    }
+    .boxE-1 {
+        width: 60%;
+        height: 200px;
+        float: left;
+    }
+    .box10 {
+        background-color: lightslategray;
+        height: 40%;
+    }
+    .box11 {
+        background-color: gray;
+        height: 60%;
+    }
+    .boxE-2 {
+        width: 40%;
+        height: 200px;
+        float: left;
+    }
+    .box12 {
+        background-color: black;
+        height: 20%;
+    }
+    .box13 {
+        background-color: gray;
+        height: 20%;
+    }
+    .box14 {
+        background-color:  li;
+    }
+    .boxF{
+        width: 100%;
+        float: left;  
+    }
+    .box15 {
+        background-color: black;
+        height: 30px;
+    }
+    .boxG {
+        width: 100%;
+        float: left;  
+    }
+    .box16 {
+        background-color: gray;
+    }
+
+  
+    .boxI {
+        width: 50%;
+        height: 200px;
+        float: left;
+    }
+    .box17 {
+        background-color: black;
+        height: 40%;
+    }
+    .box18 {
+        background-color: black;
+        height: 60%;
+    }
+    .boxJ {
+        width: 50%;
+        height: 200px;
+        float: left;
+    }
+    .box19 {
+        background-color: black;
+        height: 50%;
+    }
+    .box20 {
+        background-color: gray;
+        height: 50%;
+    }

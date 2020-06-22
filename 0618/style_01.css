@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.after::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.wrap1 {
+  width: 100%;
+  padding: 20px;
+  background: lightgray;
+  margin-bottom: 20px;
+  ;
+}
+
+.wrap1>div {
+  float: left;
+  padding: 20px;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: orange;
+  border: 10px solid #000;
+  margin-right: 20px;
+
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: lightgreen;
+  border: 10px dotted #000;
+  margin-right: 20px;
+
+}
+
+.box3 {
+
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  border-radius: 50%;
+
+}
+
+.box4 {
+  width: 500px;
+  height: 300px;
+  background: pink;
+  border: 10px dotted #fff;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 18px;
+  color: red;
+}

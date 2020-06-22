@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.after::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.box1 {
+  background: black;
+  padding: 20px;
+  margin: 0 0 100px 0;
+
+}
+
+.box2 {
+  margin: 0 0 100px 0;
+}
+
+.box1>div {
+  margin-right: 30px;
+
+}
+
+.box1-1 {
+  width: 250px;
+  height: 150px;
+  border: 2px solid yellow;
+  background: linear-gradient(to right, yellow, black);
+  display: inline-block;
+}
+
+.box1-2 {
+  width: 150px;
+  height: 150px;
+  border: 2px solid yellow;
+  border-radius: 50%;
+  background: linear-gradient(yellow, black);
+  display: inline-block;
+}
+
+.box2-1 {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, lightblue, rgb(113, 113, 216));
+}
+
+.box2-2 {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, rgb(36, 143, 179), pink);
+}
+
+.box3 {
+  background: url(img2/bg2.jpg) no-repeat center;
+  background-size: cover;
+  background-position: top;
+  /* width: 100%; */
+  height: 500px;
+}
+
+.box3 {
+  margin: 100px 0;
+}
+
+.box3-1 {
+  width: 300px;
+  height: 200px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  line-height: 200px;
+  margin: 50px 100px;
+}
+
+.box3-2 {
+  width: 300px;
+  height: 200px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  opacity: 0.5;
+  background: #000;
+  text-align: center;
+  line-height: 200px;
+}

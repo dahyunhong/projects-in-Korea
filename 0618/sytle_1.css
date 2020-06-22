@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.after::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.boxA {
+  width: 200px;
+  height: 200px;
+  background: purple;
+  margin-bottom: 50px;
+  border: 10px solid #000;
+}
+
+.boxB {
+  width: 200px;
+  height: 200px;
+  background: lightseagreen;
+  margin-bottom: 50px;
+  border: 10px dotted #fff;
+}
+
+.boxC {
+  width: 200px;
+  height: 200px;
+  background: gold;
+  border-radius: 50%;
+}
